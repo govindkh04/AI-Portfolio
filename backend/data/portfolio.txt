@@ -1,0 +1,95 @@
+PERSONAL INFORMATION
+
+Name: Govind Khandelwal
+Education: B.Tech in Mathematics & Computing
+University: Delhi Technological University
+
+
+TECHNICAL SKILLS
+
+Programming:
+Python
+C
+C++
+
+Web Development:
+HTML
+CSS
+JavaScript
+
+AI / Generative AI:
+LLMs
+Generative AI
+Prompt Engineering
+ReAct
+Prompt Chaining
+
+Backend:
+FastAPI
+Pydantic
+
+Other:
+Git
+GitHub
+VS Code
+
+
+PROJECTS
+
+TalentAlign
+
+Description:
+TalentAlign is an AI-powered resume matching project.
+It accepts a candidate resume and a job description,
+extracts relevant information, and uses an LLM to
+evaluate the match between the candidate and the job
+requirements.
+
+Technologies:
+Python
+Groq API
+Llama 3.3
+Pydantic
+PyPDF
+python-docx
+
+My role:
+Developed the project and worked on resume parsing,
+structured information extraction and resume-job
+matching.
+
+
+IRIS
+
+Description:
+IRIS is an AI system designed to bridge thermal imagery
+with RGB-based computer vision systems.
+
+The system converts thermal imagery into RGB-like
+representations that can be used with existing RGB-based
+computer vision models.
+
+Architecture:
+Pix2Pix GAN
+Attention U-Net Generator
+ResNet34 Encoder
+SCSE Attention
+PatchGAN Discriminator
+YOLOv11
+
+Focus:
+Edge deployment
+Real-time perception
+Object detection
+
+
+LEARNING
+
+Currently learning:
+Large Language Models
+Generative AI
+Agentic AI
+RAG
+AI application development
+Backend development
+DSA

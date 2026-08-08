@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Govind | AI Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- ================= HEADER ================= -->
+
+        <header class="topbar">
+
+            <div class="brand">
+
+                <div class="brand-logo">
+                    G
+                </div>
+
+                <div class="brand-text">
+                    <h1>GOVIND'S AI PORTFOLIO</h1>
+                    <p>Interactive Digital Portfolio</p>
+                </div>
+
+            </div>
+
+            <div class="online-status">
+                <span class="status-dot"></span>
+                AI ONLINE
+            </div>
+
+        </header>
+
+
+        <!-- ================= MAIN LAYOUT ================= -->
+
+        <div class="main-layout">
+
+
+            <!-- ================= SIDEBAR ================= -->
+
+            <aside class="sidebar">
+
+                <div class="sidebar-section">
+
+                    <p class="sidebar-label">
+                        PORTFOLIO
+                    </p>
+
+                    <div class="nav-item active">
+                        <span>◈</span>
+                        AI Assistant
+                    </div>
+
+                    <div class="nav-item">
+                        <span>◇</span>
+                        About Govind
+                    </div>
+
+                    <div class="nav-item">
+                        <span>◇</span>
+                        Projects
+                    </div>
+
+                    <div class="nav-item">
+                        <span>◇</span>
+                        Skills
+                    </div>
+
+                    <div class="nav-item">
+                        <span>◇</span>
+                        Experience
+                    </div>
+
+                </div>
+
+
+                <div class="sidebar-bottom">
+
+                    <div class="hiring-card">
+
+                        <p class="hiring-label">
+                            HIRING?
+                        </p>
+
+                        <h3>
+                            Check Job Fit
+                        </h3>
+
+                        <p>
+                            Upload a job description and
+                            compare it with Govind's profile.
+                        </p>
+
+                        <button id="job-fit-button">
+                            Analyze Job →
+                        </button>
+
+                        <input
+                            type="file"
+                            id="job-file-input"
+                            accept=".pdf,.docx"
+                            hidden
+                        >
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+
+            <!-- ================= CONTENT ================= -->
+
+            <main class="content">
+
+
+                <!-- Hero -->
+
+                <section class="hero">
+
+                    <div class="hero-tag">
+                        <span>✦</span>
+                        AI-POWERED PORTFOLIO
+                    </div>
+
+                    <h2>
+                        Meet Govind's
+                        <span>AI Portfolio.</span>
+                    </h2>
+
+                    <p>
+                        An interactive way to explore Govind's
+                        skills, projects, experience and
+                        achievements — just ask.
+                    </p>
+
+                </section>
+
+
+                <!-- Quick questions -->
+
+                <section class="quick-section">
+
+                    <div class="section-heading">
+                        <span>START A CONVERSATION</span>
+                    </div>
+
+                    <div class="quick-buttons">
+
+                        <button
+                            class="quick-question"
+                            data-question="Tell me about Govind's projects."
+                        >
+                            <span>01</span>
+                            Tell me about his projects
+                            <b>→</b>
+                        </button>
+
+                        <button
+                            class="quick-question"
+                            data-question="What are Govind's technical skills?"
+                        >
+                            <span>02</span>
+                            What are his technical skills?
+                            <b>→</b>
+                        </button>
+
+                        <button
+                            class="quick-question"
+                            data-question="Tell me about Govind's AI experience."
+                        >
+                            <span>03</span>
+                            Tell me about his AI experience
+                            <b>→</b>
+                        </button>
+
+                    </div>
+
+                </section>
+
+
+                <!-- Chat -->
+
+                <section class="chat-section">
+
+                    <div class="chat-header">
+
+                        <div>
+                            <p class="chat-title">
+                                PORTFOLIO ASSISTANT
+                            </p>
+
+                            <p class="chat-subtitle">
+                                Ask anything about Govind
+                            </p>
+                        </div>
+
+                        <div class="chat-indicator">
+                            ● ACTIVE
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="chat-container"
+                        class="chat-container"
+                    >
+
+                        <div class="message assistant-message">
+
+                            <div class="message-avatar">
+                                G
+                            </div>
+
+                            <div class="message-content">
+
+                                <p>
+                                    Hi! I'm Govind's AI portfolio
+                                    assistant. Ask me anything about
+                                    his work, skills, projects or
+                                    experience.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Input -->
+
+                    <div class="input-area">
+
+                        <textarea
+                            id="message-input"
+                            placeholder="Ask about Govind's projects, skills, experience..."
+                            rows="1"
+                        ></textarea>
+
+                        <button
+                            id="send-button"
+                            class="send-button"
+                        >
+                            ↑
+                        </button>
+
+                    </div>
+
+                    <p class="input-note">
+                        AI-generated responses are based only on
+                        Govind's portfolio information.
+                    </p>
+
+                </section>
+
+
+                <!-- Job fit result -->
+
+                <section
+                    id="job-fit-result"
+                    class="job-fit-result hidden"
+                >
+                </section>
+
+
+                <!-- Footer -->
+
+                <footer>
+
+                    <span>
+                        GOVIND KHANDELWAL
+                    </span>
+
+                    <span>
+                        AI PORTFOLIO · 2026
+                    </span>
+
+                </footer>
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
